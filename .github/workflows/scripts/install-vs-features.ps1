@@ -82,6 +82,7 @@ if ($UseWebInstaller) {
 			'modify',
 			'--installPath', "`"$VsInstallPath`"" ,
 			'--norestart',
+			'--wait',
 			'--quiet' + `
 			$componentList
 		) `
